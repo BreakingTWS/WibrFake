@@ -1,0 +1,170 @@
+/* CSS Document */
+body {
+	margin: 0;
+	background-color: #E5E6FC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+#header {
+	position: relative;
+	height: 100px;
+	border-bottom: 3px solid #FF0000;
+	background-color: #FFFFFF;
+}
+
+#header #logo_etecsa {
+	position: absolute;
+	top: 0;
+	right: 0;
+        width: 25%;
+        height:100px;
+}
+
+#contenedor {
+	position: relative;
+	/*background-color: #E5E6FC;*/
+	background-image: url(../images/contenedor_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 60px;
+}
+
+#contenedor #bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+ul#menu_lang {
+	position: absolute;
+	width: 250px;
+	top: 0px;
+	right: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+#menu_lang li {
+	list-style: none;
+	float: left;
+	margin-right: 8px;
+	background-color: #999CCD;
+	color: #FFFFFF;
+	padding: 8px 14px 8px 14px;
+	border-radius: 0 0 6px 6px;
+}
+
+#menu_lang li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#menu_lang li.sel {
+	background-color: #11188D;
+	font-weight: bold;
+}
+
+#int {
+	width: 600px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+.blq {
+	border-radius: 6px;
+	background-color: #FFFFFF;
+}
+
+.blq .title {
+	background-color: #11188D;
+	padding: 4px 0 4px 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 6px 6px 0 0;
+}
+
+.blq .blq_int {
+	border-radius: 0 0 6px 6px;
+}
+
+.vnc a {
+	margin-right: 12px;
+}
+
+.keyinfo {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.datainfo{
+	font-size: 16px;
+}
+
+
+
+table#sesiontraza{
+	width: 100%;
+	
+}
+table#sesiontraza th {
+	color: white;
+	background-color: #11188D;
+	text-align: center;
+}
+
+table#sesiontraza caption{
+	font-weight: bold;
+}
+
+table#sesiontraza td{
+	
+	font-size: 16px;
+	text-align: right;
+}
+
+table#sessioninfo td.key{
+	font-weight: bold;
+}
+
+table#logout td{
+	
+    text-align: left;
+	/*font-weight: bold;*/
+	
+}
+table#logout td.key{
+	
+	text-align: right;
+	font-weight: bold;
+	
+}
+
+ol.condiciones li{
+	margin-bottom: 10px;
+}
+
+a.red{
+    color: red;
+}
